@@ -9,7 +9,7 @@
 
 <body>
     <ul>
-    @foreach ($language as $lang)
+    @foreach ($languages as $lang)
     <li>{{ $lang }}</li>
     @endforeach
 </ul>
